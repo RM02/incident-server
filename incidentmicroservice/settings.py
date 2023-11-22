@@ -29,7 +29,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # Application definition
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://ec2-18-216-191-86.us-east-2.compute.amazonaws.com:8000"
+]
 
 
 # Application definition
