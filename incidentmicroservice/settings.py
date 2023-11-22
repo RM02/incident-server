@@ -59,7 +59,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'incidentmicroservice.urls'
 
-AUTH_URL = 'http://0.0.0.0:8000'
+AUTH_URL = 'http://ec2-18-216-191-86.us-east-2.compute.amazonaws.com:8000'
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
