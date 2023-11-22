@@ -26,18 +26,10 @@ SECRET_KEY = 'django-insecure-(t2xkyuf2(@%v87ho@kplw*w#w5xg285bec0t^y4#-&tndvvo0
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
-CORS_ALLOWED_ORIGINS = [
-    "http://www.sabienal.com",
-    'http://localhost:3000',
-    'http://localhost:8000',
-    'http://190.201.125.137:3000',
-
-    'http://192.168.0.206:8080',
-    'http://192.168.0.206:8000', 
-]
+CORS_ALLOWED_ORIGINS = ["*"]
 
 
 # Application definition
