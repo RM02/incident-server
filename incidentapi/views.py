@@ -12,6 +12,6 @@ class IncidentView(viewsets.ModelViewSet):
     """
     queryset = Incident.objects.all()
     serializer_class = IncidentSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.AllowAny]
     filter_backends = [filters.SearchFilter]
     search_fields = ['id', 'incident', 'status']
